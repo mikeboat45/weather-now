@@ -9,7 +9,7 @@ export function Home() {
     <>
       <header>
         <div>
-          <img src="" alt="" />
+          <img src="./assets/logo.svg" alt="image of app-logo" />
           <span>Hey Weather</span>
           <Unit />
         </div>
