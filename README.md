@@ -1,17 +1,42 @@
-# React + Vite
+# HEY-WEATHER APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive weather application that allows users to search for real-time weather information for any location using the Open-Meteo API.
+Built with HTML, CSS, and JavaScript (and later, ReactJS), this project showcases frontend skills in design implementation, API integration, and responsive UI development.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search by Location – Enter a city name to view weather details.
 
-## React Compiler
+- Current Conditions – Display temperature, weather icon, and location details.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Additional Metrics – Includes “feels like” temperature, humidity, wind speed, and precipitation.
 
-## Expanding the ESLint configuration
+- 7-Day Forecast – View upcoming weather with high/low temperatures and icons.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# hey-weather
+- Hourly Forecast – See hourly temperature changes for selected days.
+
+- Unit Conversion – Toggle between Celsius/Fahrenheit, km/h ↔ mph, and mm ↔ in.
+
+- Responsive Design – Adapts layout for desktop and mobile views.
+
+- Interactive UI – Hover and focus effects across all interactive elements.
+
+## Tech Stack
+
+- React
+- TailwindCSS
+- Vercel (for deployment)
+
+## Learning Goals
+
+- Practice frontend architecture and responsive layout design.
+
+- ReactJS to apply component-based development and state management.
+
+## Acknowledgements
+
+- Open-Meteo API for weather data.
+
+- Figma design template provided by the hackathon organizers.
+
+- Inspiration and collaboration from the developer community.
